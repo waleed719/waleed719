@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @waleed719
 - 👀 I’m interested in Generative AI 
 - 🌱 I’m currently learning Python
+- 👨🏽‍💻 I build apps in flutter 
 - 💞️ I’m trying to increase my learning
 
 
