@@ -2,8 +2,10 @@
 
 <img src="banner.svg" alt="Waleed" width="700"/>
 
+<br/>
+
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=6C9EFF&center=true&vCenter=true&width=500&lines=BSCS+Student+%7C+Flutter+Developer;Indie+Game+Dev+%7C+Data+Science+Learner;Building+things+that+matter." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=BSCS+Student+%7C+Flutter+Developer;Indie+Game+Dev+%7C+Data+Science+Learner;Building+things+that+matter.;%24+git+push+origin+main+%E2%9C%93" alt="Typing SVG" />
 </a>
 
 </div>
@@ -78,20 +80,36 @@
 
 ---
 
-## `Stats`
+## `github-stats`
 
 <div align="center">
 
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=waleed719&show_icons=true&theme=transparent&hide_border=true&title_color=00FF41&text_color=c9d1d9&icon_color=00FF41" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waleed719&layout=compact&theme=transparent&hide_border=true&title_color=00FF41&text_color=c9d1d9" />
 
 <br/>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=waleed719&theme=transparent&hide_border=true&ring=6C9EFF&fire=6C9EFF&currStreakLabel=6C9EFF&sideLabels=c9d1d9&dates=c9d1d9&currStreakNum=ffffff&sideNums=ffffff)
+![GitHub Streak](https://streak-stats.demolab.com?user=waleed719&theme=transparent&hide_border=true&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=c9d1d9&dates=c9d1d9&currStreakNum=ffffff&sideNums=ffffff)
 
 </div>
 
 ---
 
-## `Connect`
+## `contribution-snake`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/waleed719/waleed719/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/waleed719/waleed719/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/waleed719/waleed719/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
+
+---
+
+## `connect`
 
 <div align="center">
 
@@ -104,5 +122,5 @@
 ---
 
 <div align="center">
-  <sub>Building in public · Learning in depth · Shipping with intent</sub>
+  <sub><code>Building in public · Learning in depth · Shipping with intent</code></sub>
 </div>
