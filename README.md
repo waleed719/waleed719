@@ -84,8 +84,6 @@
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=waleed719&show_icons=true&theme=transparent&hide_border=true&title_color=00FF41&text_color=c9d1d9&icon_color=00FF41" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waleed719&layout=compact&theme=transparent&hide_border=true&title_color=00FF41&text_color=c9d1d9" />
 
 <br/>
 
