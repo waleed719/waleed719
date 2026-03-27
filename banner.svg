@@ -1,28 +1,48 @@
-<svg width="700" height="120" viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="140" viewBox="0 0 700 140" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#4f9eff"/>
-      <stop offset="40%"  stop-color="#a78bfa"/>
-      <stop offset="75%"  stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#fb923c"/>
+    <linearGradient id="matrixGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00ff41"/>
+      <stop offset="35%"  stop-color="#39ff6e"/>
+      <stop offset="65%"  stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00ff41"/>
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scanlines" width="700" height="4" patternUnits="userSpaceOnUse">
+      <rect width="700" height="2" fill="#00ff0008"/>
+      <rect y="2" width="700" height="2" fill="transparent"/>
+    </pattern>
   </defs>
-  <rect width="700" height="120" fill="#0d1117" rx="8"/>
+  <rect width="700" height="140" fill="#020c02" rx="6"/>
+  <rect width="700" height="140" fill="url(#scanlines)" rx="6" opacity="0.6"/>
+  <path d="M14 30 L14 14 L30 14" fill="none" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M686 30 L686 14 L670 14" fill="none" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M14 110 L14 126 L30 126" fill="none" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M686 110 L686 126 L670 126" fill="none" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <text x="30" y="52" font-family="'Courier New', Courier, monospace" font-size="12" fill="#00ff41" opacity="0.6">root@github:~$</text>
   <text
-    x="350" y="72"
+    x="350" y="88"
     text-anchor="middle"
     font-family="'Courier New', Courier, monospace"
-    font-size="54"
+    font-size="52"
     font-weight="700"
-    letter-spacing="14"
-    fill="url(#grad)"
+    letter-spacing="16"
+    fill="url(#matrixGrad)"
+    filter="url(#glow)"
   >WALEED</text>
   <text
-    x="350" y="100"
+    x="350" y="114"
     text-anchor="middle"
     font-family="'Courier New', Courier, monospace"
-    font-size="11"
-    letter-spacing="6"
-    fill="#555e6e"
+    font-size="10"
+    letter-spacing="5"
+    fill="#00ff41"
+    opacity="0.45"
   >SOFTWARE DEVELOPER  ·  FLUTTER  ·  DATA SCIENCE</text>
+  <rect x="564" y="72" width="10" height="18" fill="#00ff41" opacity="0.85">
+    <animate attributeName="opacity" values="0.85;0;0.85" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="30" y="134" font-family="'Courier New', Courier, monospace" font-size="9" fill="#00ff41" opacity="0.3">[sys: online]  [commits: active]  [status: building]</text>
 </svg>
